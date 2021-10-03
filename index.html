@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="con.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JavaScript </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <!--Sidebar-->
+  <button class="sidebar-toggle">
+    <i class="fas fa-bars"></i>
+  </button>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <img src="logo.svg" class="logo" alt="" />
+      <button class="close-btn"><i class="fas fa-times"></i></button>
+    </div>
+    <!-- links -->
+    <ul class="links">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="https://github.com/PlayerNo123">My Github</a>
+      </li>
+      <li>
+        <a href="https://Calculator.playerno1231.repl.co">Calculator</a>
+      </li>
+      <li>
+        <a href="https://Music-Player-App.playerno1231.repl.co">Music Player App</a>
+      </li>
+      <li>
+        <a href="https://TicTacToe.playerno1231.repl.co">TicTacToe</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My YT Account </a>
+      </li>
+    </ul>
+
+
+  </aside>
+
+
+
+
+
+  <div class="wrapper">
+    <header>Todo App</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
